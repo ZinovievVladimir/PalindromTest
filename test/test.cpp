@@ -1,10 +1,4 @@
 #include <gtest/gtest.h>
-#include "add.h"
-
-TEST(Addition, CanAddTwoNumbers)
-{
-  EXPECT_TRUE(add(2, 2) == 4);
-}
 
 int main(int ac, char* av[])
 {
