@@ -8,7 +8,6 @@ bool is_palindrom(CNode* head) {
 		size++;
 		node = node->next;
 	}
-
 	node = head;
 	CNode* mas = new CNode[size];
 
